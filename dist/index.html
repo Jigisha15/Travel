@@ -12,7 +12,41 @@
     />
     <title>Travel</title>
   </head>
-  <body>
-    <h1 class="bg-red-900">Shree Ganesh</h1>
+  <body class="w-[414px] bg-[#D5D6D1] border border-black">
+    <img
+      src="../assets/pahaad.jpg"
+      class="fixed w-[414px] h-[700px]"
+      id="bg-image"
+    />
+    <!-- <h1>Shree Ganesh</h1> -->
+    <nav
+      class="fixed bg-[rgba(0,0,0,0.2)] w-[414px] h-[30px] backdrop-blur-lg z-10 flex items-center justify-center"
+    >
+      <ul class="flex gap-3 text-sm">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>SignIn/Register</li>
+      </ul>
+    </nav>
+    <div
+      class="absolute mt-8 w-[414px] h-[600px] flex flex-col justify-between items-center"
+    >
+      <h1 class="text-center mt-8 font-extrabold text-[40px] text-white">
+        Explore the beauty of India with us
+      </h1>
+      <div class="flex flex-col justify-center items-center">
+        <button
+          class="text-lg border-none rounded-[50px] w-[150px] pt-1 pb-1 text-center bg-teal-900 text-white"
+        >
+          Explore More
+        </button>
+        <button
+          class="text-white bg-teal-900 mt-2 border-none rounded-[50px] text-center pt-1 pb-1 pl-10 pr-10"
+        >
+          Sign In / Register
+        </button>
+      </div>
+    </div>
   </body>
 </html>
