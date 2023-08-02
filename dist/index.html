@@ -8,44 +8,45 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="output.css"
     />
     <title>Travel</title>
   </head>
-  <body class="w-[414px] bg-[#D5D6D1] border border-black">
-    <img
-      src="../assets/pahaad.jpg"
-      class="fixed w-[414px] h-[700px]"
-      id="bg-image"
-    />
-    <!-- <h1>Shree Ganesh</h1> -->
-    <nav
-      class="fixed bg-[rgba(0,0,0,0.2)] w-[414px] h-[30px] backdrop-blur-lg z-10 flex items-center justify-center"
-    >
-      <ul class="flex gap-3 text-sm">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>SignIn/Register</li>
-      </ul>
-    </nav>
+
+  <body class="w-[414px] border border-black">
     <div
-      class="absolute mt-8 w-[414px] h-[600px] flex flex-col justify-between items-center"
+      class="w-[414px] h-[624px]"
+      style="
+        background-image: url('../assets/temple.jpg');
+
+        width: 414px;
+        height: 624px;
+      "
     >
-      <h1 class="text-center mt-8 font-extrabold text-[40px] text-white">
-        Explore the beauty of India with us
-      </h1>
-      <div class="flex flex-col justify-center items-center">
-        <button
-          class="text-lg border-none rounded-[50px] w-[150px] pt-1 pb-1 text-center bg-teal-900 text-white"
+      <div
+        class="absolute flex flex-col justify-between items-center h-[600px]"
+      >
+        <h1
+          class="w-[414px] text-center text-white font-bold text-[30px] px-[20px]"
         >
-          Explore More
-        </button>
-        <button
-          class="text-white bg-teal-900 mt-2 border-none rounded-[50px] text-center pt-1 pb-1 pl-10 pr-10"
-        >
-          Sign In / Register
-        </button>
+          Explore the Beauty of India with Us
+        </h1>
+        <span class="flex flex-col items-center">
+          <a
+            href=""
+            class="px-5 bg-teal-900 text-white"
+            >SignIn / Register</a
+          >
+          <a
+            href=""
+            class="mt-5 px-5 font-bold bg-teal-900 text-white"
+            >Explore</a
+          >
+        </span>
       </div>
     </div>
   </body>
