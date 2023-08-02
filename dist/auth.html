@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="output.css"
+    />
+    <title>Travel | Auth</title>
+  </head>
+  <body class="w-[414px] border border-black">
+    <nav
+      class="fixed bg-[rgba(0,0,0,0.2)] w-[414px] h-[30px] backdrop-blur-lg z-10 flex items-center justify-center"
+    >
+      <ul class="flex gap-3 text-sm">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li>
+          <a href="./auth.html"><i class="fa fa-user-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <form
+      action=""
+      class="px-5 py-5 mt-8 flex flex-col justify-center items-center"
+    >
+      <div class="display-form">
+        <label for="">Name</label>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          class="border border-gray-500"
+        />
+      </div>
+      <br /><br />
+      <div class="display-form">
+        <label for="">Email</label>
+        <input
+          type="email"
+          placeholder="Enter Email"
+          class="border border-gray-500"
+        />
+      </div>
+
+      <br /><br />
+      <div class="display-form">
+        <label for="">Message</label>
+        <textarea
+          name=""
+          placeholder="Enter Message"
+          id=""
+          cols="30"
+          rows="5"
+          class="border border-gray-500"
+        ></textarea>
+      </div>
+
+      <br /><br />
+      <div class="display-form">
+        <input
+          type="submit"
+          class="border border-gray-500 px-5 py-1 bg-teal-900 hover:bg-teal-800 text-white cursor-pointer"
+        />
+      </div>
+    </form>
+  </body>
+</html>
